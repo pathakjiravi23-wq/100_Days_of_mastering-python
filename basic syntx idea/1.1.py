@@ -1,0 +1,7 @@
+x,y=input("enter two numbers ").split()
+print("the num of mens",x)
+print("the num of womens",y)
+x,y,z=input("enter three numbers").split()
+print("the num of boys",x)
+print("the num of girls",y)
+print("the num of teachers",z)
