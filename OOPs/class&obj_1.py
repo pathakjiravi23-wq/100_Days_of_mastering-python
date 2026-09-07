@@ -19,10 +19,10 @@ class MyInt(float):
 
     def __init__(self, value):
         print("self:", self)
-        print("id(self):", id(self))
+        print("id(self):", id(self), value)
 
 
-x = MyInt(10.0)
+x = MyInt(110.8)
 
 print("x:", x)
 print("id(x):", id(x))
