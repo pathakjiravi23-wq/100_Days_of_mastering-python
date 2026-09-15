@@ -19,11 +19,11 @@ class Triangle:
         print("Area of triangle: ", result)
 
 
-circle1 = Circle()
-circle1.area(12)
+area = Circle()
+area.area(12)
 
-rec1 = Rectangle()
-rec1.area(10, 20)
+area = Rectangle()
+area.area(10, 20)
 
-tri = Triangle()
-tri.area(5, 10)
+area = Triangle()
+area.area(5, 10)
